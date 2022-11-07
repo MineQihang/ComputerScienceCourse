@@ -1,0 +1,39 @@
+site_name: Mine_qihang's Docs
+theme:
+  name: "material"
+  features:
+    #- navigation.instant # 点击内部链接时，不用全部刷新页面
+    - navigation.tracking # 在url中使用标题定位锚点
+    - navigation.tabs # 顶部显示导航顶层nav（也就是第一个节点）
+    - navigation.tabs.sticky # 滚动是隐藏顶部nav，需要配合navigation.tabs使用
+    - navigation.sections # nav节点缩进
+    - navigation.expand # 不折叠左侧nav节点
+    - navigation.indexes # 指定节点index pages ，跟instant不兼容
+    - toc.integrate # 右侧生产目录
+    - navigation.top # 一键回顶部
+# plugins:
+#   - search:
+#       lang: jp
+markdown_extensions:
+  - pymdownx.highlight      # code hilight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+nav:
+- 计算机系统结构:
+    - Introduction: Architecture/chapter1.md
+    - Principles of Quantitative Analysis; MIPS: Architecture/chapter2.md
+    - Pipelining, Hazards, Implementation Issues: Architecture/chapter3.md
+    - Instruction-Level Parallelism (ILP), Tomasulo: Architecture/chapter4.md
+    - Memory-Hierarchy Design, Cache Optimization: Architecture/chapter5.md
+    - ILP; Branch Prediction, Superscalars: Architecture/chapter6.md
+    - Memory Hierarchy Design, Virtual Memory: Architecture/chapter7.md
+- 软件工程: index.md
+- 计算机网络: index.md
+- 操作系统原理: index.md
+- 机器学习基础: index.md
+- 自然语言处理: index.md
