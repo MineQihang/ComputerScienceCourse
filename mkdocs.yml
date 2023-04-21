@@ -25,16 +25,34 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 nav:
 - 计算机系统结构:
-    - Introduction: Architecture/chapter1.md
-    - Principles of Quantitative Analysis; MIPS: Architecture/chapter2.md
-    - Pipelining, Hazards, Implementation Issues: Architecture/chapter3.md
-    - Instruction-Level Parallelism (ILP), Tomasulo: Architecture/chapter4.md
-    - Memory-Hierarchy Design, Cache Optimization: Architecture/chapter5.md
-    - ILP; Branch Prediction, Superscalars: Architecture/chapter6.md
-    - Memory Hierarchy Design, Virtual Memory: Architecture/chapter7.md
-- 软件工程: index.md
-- 计算机网络: index.md
-- 操作系统原理: index.md
-- 机器学习基础: index.md
+  - Introduction: Architecture/chapter1.md
+  - Principles of Quantitative Analysis; MIPS: Architecture/chapter2.md
+  - Pipelining, Hazards, Implementation Issues: Architecture/chapter3.md
+  - Instruction-Level Parallelism (ILP), Tomasulo: Architecture/chapter4.md
+  - Memory-Hierarchy Design, Cache Optimization: Architecture/chapter5.md
+  - ILP; Branch Prediction, Superscalars: Architecture/chapter6.md
+  - Memory Hierarchy Design, Virtual Memory: Architecture/chapter7.md
+- 软件工程: 
+  - 软工期末考试: SoftwareEngineering/软工期末考试.md
+  - 软工应用分析题: SoftwareEngineering/软工应用分析题.md
+- 计算机网络:
+  - 第一次作业: ComputerNetwork/《计算机网络》第一次作业.md
+  - 第二章作业: ComputerNetwork/《计算机网络》第二章作业.md
+  - 第三章作业: ComputerNetwork/《计算机网络》第三章作业.md
+  - 第四章作业: ComputerNetwork/《计算机网络》第四章作业.md
+  - 第五章作业: ComputerNetwork/《计算机网络》第五章作业.md
+  - 第六章作业: ComputerNetwork/《计算机网络》第六章作业.md
+  - 第九章作业: ComputerNetwork/《计算机网络》第九章作业.md
+- 操作系统原理: OperatingSystem/index.md
+- 机器学习基础: 
+  - 第一章作业: MachineLearning/第一章作业.md
+  - 第二章作业: MachineLearning/第二章作业.md
+  - 第三章作业: MachineLearning/第三章作业.md
+  - 第四章作业: MachineLearning/第四章作业.md
+  - 第五章作业: MachineLearning/第五章作业.md
+  - 第六章作业: MachineLearning/第六章作业.md
+  - 第七章作业: MachineLearning/第七章作业.md
+  - 第八章作业: MachineLearning/第八章作业.md
+  - 第九章作业: MachineLearning/第九章作业.md
 - 自然语言处理: index.md
 - 专业基本能力测试: ProfessionalBasicAptitudeTest/index.md
